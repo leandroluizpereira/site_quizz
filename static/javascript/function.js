@@ -28,6 +28,10 @@ element.onclick = function (){
     // criar mais um for aqui com as perguntas colocando o incremento fora do for e fazendo outro for em seguida para proxima pergunta 
 
     }
+    questionOne.onclick = function(){
+
+        alert("Certa resposta ");
+    }
 
 
 }
