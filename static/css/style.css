@@ -120,8 +120,15 @@
         animation-delay: 5s;
      }
     
-    
-    
+    .justyBtn{
+
+        justify-content: center;
+        display: flex;
+        align-items: center;
+    }
+    .btnOk{
+        width: 83%;
+    }
     
      
      @keyframes  animation {
