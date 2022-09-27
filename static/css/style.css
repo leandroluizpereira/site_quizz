@@ -2,7 +2,8 @@
     @charset "utf-8";
 
     :root {
-
+        --corPrimaria: rgb(219, 48, 48);
+        --corSegundaria:rgb(247, 126, 51);
         --cor-background:beige;
       }
     
@@ -19,14 +20,14 @@
        height: 100%;
        margin: auto ;
        padding-bottom: 20px;
-       background-color: rgb(219, 48, 48);
+       background-color: var(--corPrimaria);
        border: 2px solid black;
        border-radius: 10px;
      }
      .btnQuestion{
         width: 50px;
         height: 50px;
-        background-color: rgb(247, 126, 51);
+        background-color: var(--corSegundaria);
      }
 
      

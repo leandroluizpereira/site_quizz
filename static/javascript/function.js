@@ -38,6 +38,7 @@ btnQuestionOne.onclick = function(){
     answerOne.textContent=" var number = 0;";
     answerOne.onclick = function(){
     answerOne.textContent=" is serius , erro ";
+    tot.textContent=correct;
     }
     answerTwo.textContent=" let number = 0;";
     answerThree.textContent=" const number = 0;";
@@ -46,7 +47,8 @@ btnQuestionOne.onclick = function(){
 btnQuestionTwo.onclick = function (){
     question.textContent="2. Qual é a impressora que economiza mais tinta "
     answerOne.textContent=" A Hp torner ";
-    answerOne.onclick = function(){
+    answerTwo.onclick = function(){
+       // tot.textContent=correct+1;
     answerOne.textContent=" errado ";
     }
     answerTwo.textContent=" B Hp cartucho";
