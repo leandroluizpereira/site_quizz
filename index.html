@@ -7,53 +7,68 @@
     <title>Create new site </title>
     <link rel="stylesheet"  type="text/css"  href="static/css/style.css">
     <link rel="stylesheet"  type="text/css"  href="static/css/celular.css">
-    <link rel="stylesheet"  type="text/css"  href="static/css/tablet.css">
-   
+    <link rel="stylesheet"  type="text/css"  href="static/css/tablet.css"> 
 </head>
 <body>
   
     <div class="test-animation">
-        
-           <p class="text-header" >
-               animation in action welcome ! Leandro Pereira
-           </p>
-    
-
-
+        <p class="text-header" >
+            animation in action welcome ! Leandro Pereira
+        </p>
     </div>
 
     <div class="section">
+
+     <button class="btnQuestion" id="btnQuestionOne">1</button>
+     <button class="btnQuestion" id="btnQuestionTwo">2</button>
+     <button class="btnQuestion" id="btnQuestionThree">3</button>
+     <button class="btnQuestion" id="btnQuestionFour">4</button>
+     <button class="btnQuestion" id="btnQuestionFive">5</button>
+     <button class="btnQuestion" id="btnQuestionSix">6</button>
+     <button class="btnQuestion" id="btnQuestionSeven">7</button>
+     <button class="btnQuestion" id="btnQuestionEight">8</button>
+     <button class="btnQuestion" id="btnQuestionNine">9</button>
+     <button class="btnQuestion" id="btnQuestionTen">10</button>
+
     <div class="main">
-    <p id="question"> 1. Training in programation , whats is name this product ? </p>
+       <p id="question"> click in number for start </p>
+       <div class="centering-container">
+       <button onclick="" id="btn">start of zero quizz</button>     
+    </div>
 
+    <button class="questionDiv" id="questionOne"> <p >-</p></button>
+    <button class="questionDiv"  id="questionTwo"><p>-</p></button>
+    <button class="questionDiv"  id="questionThree"><p>-</p></button>
+    <button class="questionDiv" id="questionFour"><p>-</p></button>
+    <div class="justyBtn">  
+        <button class="btnOk" id="btnOk" ><p>Verify right stats %</p></button>
+    </div>
+    </div> <!--main-->
 
-    <div class="centering-container">
-    <button onclick="" id="btn"> Revelation of answers</button>
-     
-    
+    <div class="containerResult">
+        <div class="painelResult">
+                <ul>
+                    
+                    <li id = "tot">Total</li>
+                    <li>result</li>
+                    <li>result</li>
+                    <li>result</li>
+                    <li>result</li>
+                    <li>result</li>
+                    <li>result</li>
+                    <li>result</li>
+                </ul>
+              
+        </div>  
+    </div>
 
-</div>
-
-<button class="questionDiv" id="questionOne"> <p >answer one</p></button>
-<button class="questionDiv"  id="questionTwo"><p>answer two</p></button>
-<button class="questionDiv"  id="questionThree"><p>answer trhee</p></button>
-<button class="questionDiv" id="questionFour"><p>answer four</p></button>
-
-
-<div class="justyBtn">  
-    <button class="btnOk" id="btnOk" ><p>Verify right stats %</p></button>
-</div>
-
- </div>
-
-
-  <div >
+    <div >
      <p class="text" id="text">
         and text here !
-     </p>
-  </div>
+    </p>
+    </div>
     
-</div>
+</div><!--section-->
 </body>
 
 <script src="static/javascript/function.js"></script>
