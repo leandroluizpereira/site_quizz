@@ -33,6 +33,7 @@ var tot = document.getElementById("tot");
 var correct = 0;
 
 
+
 btnQuestionOne.onclick = function(){       
     question.textContent="1. question about tecnology , whats is the variable that is constant"
     answerOne.textContent=" var number = 0;";
@@ -41,6 +42,10 @@ btnQuestionOne.onclick = function(){
     tot.textContent=correct;
     }
     answerTwo.textContent=" let number = 0;";
+    answerTwo.onclick = function(){
+      answerTwo.textContent="Errado";
+      answerTwo.style.backgeoundColor="#990000";
+    }
     answerThree.textContent=" const number = 0;";
     answerFour.textContent=" int number = 0;";
 }
